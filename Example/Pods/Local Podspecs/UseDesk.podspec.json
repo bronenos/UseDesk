@@ -1,0 +1,22 @@
+{
+  "name": "UseDesk",
+  "version": "0.1.0",
+  "summary": "A short description of UseDesk.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/serega@budyakov.com/UseDesk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "serega@budyakov.com": "ixotdog@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/serega@budyakov.com/UseDesk.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UseDesk/Classes/**/*"
+}

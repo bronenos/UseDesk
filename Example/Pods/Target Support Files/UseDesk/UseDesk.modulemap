@@ -1,0 +1,6 @@
+framework module UseDesk {
+  umbrella header "UseDesk-umbrella.h"
+
+  export *
+  module * { export * }
+}

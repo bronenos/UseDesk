@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - UseDesk (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - UseDesk (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  UseDesk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  UseDesk: 154cf815cf2e4692719629d9562dbae8bf702338
+
+PODFILE CHECKSUM: 7d16168dc9f657d94a6e99ec3e48cb55c8928750
+
+COCOAPODS: 1.5.3
