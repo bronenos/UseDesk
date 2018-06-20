@@ -31,7 +31,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
   s.swift_version = '4.0'
   s.requires_arc = true
-  s.source_files = '/UseDesk/Classes/*'
+  s.static_framework = true
+  
+  s.source_files = '/UseDesk/*{h,m}'
+  
   s.resources = 'UseDesk/**/*.{png,jpeg,jpg,storyboard,xib}'
   #s.resources = 'UseDesk/Assets/*.{png,storyboard}'
   #s.resource_bundles = {
