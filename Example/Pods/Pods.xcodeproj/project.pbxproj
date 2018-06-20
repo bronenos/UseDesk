@@ -524,18 +524,18 @@
 		4FD4FF076C65C916801CAE8EAC0CC52B /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		4FEB747A40DF98D7608E25227AC5726B /* Pods-UseDesk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UseDesk_Example-frameworks.sh"; sourceTree = "<group>"; };
 		500399DBD061A3DD482746A8FE7CE3F5 /* Pods_UseDesk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UseDesk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		500D7FF920DA49BC000F5100 /* rcmessage_audio@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rcmessage_audio@2x.png"; path = "../UseDesk/Assets/rcmessage_audio@2x.png"; sourceTree = "<group>"; };
-		500D7FFA20DA49BD000F5100 /* rcmessage_outgoing.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = rcmessage_outgoing.aiff; path = ../UseDesk/Assets/rcmessage_outgoing.aiff; sourceTree = "<group>"; };
-		500D7FFB20DA49BD000F5100 /* rcmessage_incoming.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = rcmessage_incoming.aiff; path = ../UseDesk/Assets/rcmessage_incoming.aiff; sourceTree = "<group>"; };
-		500D7FFC20DA49BD000F5100 /* rcmessages_videoplay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rcmessages_videoplay@2x.png"; path = "../UseDesk/Assets/rcmessages_videoplay@2x.png"; sourceTree = "<group>"; };
-		500D7FFD20DA49BD000F5100 /* icon_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_file.png; path = ../UseDesk/Assets/icon_file.png; sourceTree = "<group>"; };
-		500D7FFE20DA49BD000F5100 /* rcmessage_send@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rcmessage_send@2x.png"; path = "../UseDesk/Assets/rcmessage_send@2x.png"; sourceTree = "<group>"; };
-		500D7FFF20DA49BD000F5100 /* rcmessage_attach@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rcmessage_attach@2x.png"; path = "../UseDesk/Assets/rcmessage_attach@2x.png"; sourceTree = "<group>"; };
-		500D800020DA49BD000F5100 /* rcmessages_audiopause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rcmessages_audiopause@2x.png"; path = "../UseDesk/Assets/rcmessages_audiopause@2x.png"; sourceTree = "<group>"; };
-		500D800120DA49BD000F5100 /* rcmessages_audioplay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rcmessages_audioplay@2x.png"; path = "../UseDesk/Assets/rcmessages_audioplay@2x.png"; sourceTree = "<group>"; };
-		500D800220DA49BD000F5100 /* ic_dislike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_dislike.png; path = ../UseDesk/Assets/ic_dislike.png; sourceTree = "<group>"; };
-		500D800320DA49BD000F5100 /* ic_like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_like.png; path = ../UseDesk/Assets/ic_like.png; sourceTree = "<group>"; };
-		500D800420DA49BD000F5100 /* rcmessages_manual@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rcmessages_manual@2x.png"; path = "../UseDesk/Assets/rcmessages_manual@2x.png"; sourceTree = "<group>"; };
+		500D800520DA4B3B000F5100 /* rcmessage_audio@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rcmessage_audio@2x.png"; path = "UseDesk/Assets/rcmessage_audio@2x.png"; sourceTree = "<group>"; };
+		500D800620DA4B3C000F5100 /* rcmessage_outgoing.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = rcmessage_outgoing.aiff; path = UseDesk/Assets/rcmessage_outgoing.aiff; sourceTree = "<group>"; };
+		500D800720DA4B3C000F5100 /* rcmessage_incoming.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = rcmessage_incoming.aiff; path = UseDesk/Assets/rcmessage_incoming.aiff; sourceTree = "<group>"; };
+		500D800820DA4B3C000F5100 /* rcmessages_videoplay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rcmessages_videoplay@2x.png"; path = "UseDesk/Assets/rcmessages_videoplay@2x.png"; sourceTree = "<group>"; };
+		500D800920DA4B3C000F5100 /* icon_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_file.png; path = UseDesk/Assets/icon_file.png; sourceTree = "<group>"; };
+		500D800A20DA4B3C000F5100 /* rcmessage_send@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rcmessage_send@2x.png"; path = "UseDesk/Assets/rcmessage_send@2x.png"; sourceTree = "<group>"; };
+		500D800B20DA4B3C000F5100 /* rcmessage_attach@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rcmessage_attach@2x.png"; path = "UseDesk/Assets/rcmessage_attach@2x.png"; sourceTree = "<group>"; };
+		500D800C20DA4B3C000F5100 /* rcmessages_audiopause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rcmessages_audiopause@2x.png"; path = "UseDesk/Assets/rcmessages_audiopause@2x.png"; sourceTree = "<group>"; };
+		500D800D20DA4B3C000F5100 /* rcmessages_audioplay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rcmessages_audioplay@2x.png"; path = "UseDesk/Assets/rcmessages_audioplay@2x.png"; sourceTree = "<group>"; };
+		500D800E20DA4B3C000F5100 /* ic_dislike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_dislike.png; path = UseDesk/Assets/ic_dislike.png; sourceTree = "<group>"; };
+		500D800F20DA4B3C000F5100 /* ic_like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_like.png; path = UseDesk/Assets/ic_like.png; sourceTree = "<group>"; };
+		500D801020DA4B3C000F5100 /* rcmessages_manual@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rcmessages_manual@2x.png"; path = "UseDesk/Assets/rcmessages_manual@2x.png"; sourceTree = "<group>"; };
 		51776EB36D95DAE1B3D76BB8D4358248 /* UDNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UDNavigationController.h; path = UseDesk/Classes/UDNavigationController.h; sourceTree = "<group>"; };
 		52CAF8CC5E0461ABB81113C1D3A6EB61 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		5419042BC7461BC3FA234623FDD43D22 /* SocketPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketPacket.swift; path = Source/SocketIO/Parse/SocketPacket.swift; sourceTree = "<group>"; };
@@ -1124,25 +1124,6 @@
 			path = "../Target Support Files/RCAudioPlayer";
 			sourceTree = "<group>";
 		};
-		500D7FF820DA49AB000F5100 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				500D800220DA49BD000F5100 /* ic_dislike.png */,
-				500D800320DA49BD000F5100 /* ic_like.png */,
-				500D7FFD20DA49BD000F5100 /* icon_file.png */,
-				500D7FFF20DA49BD000F5100 /* rcmessage_attach@2x.png */,
-				500D7FF920DA49BC000F5100 /* rcmessage_audio@2x.png */,
-				500D7FFB20DA49BD000F5100 /* rcmessage_incoming.aiff */,
-				500D7FFA20DA49BD000F5100 /* rcmessage_outgoing.aiff */,
-				500D7FFE20DA49BD000F5100 /* rcmessage_send@2x.png */,
-				500D800020DA49BD000F5100 /* rcmessages_audiopause@2x.png */,
-				500D800120DA49BD000F5100 /* rcmessages_audioplay@2x.png */,
-				500D800420DA49BD000F5100 /* rcmessages_manual@2x.png */,
-				500D7FFC20DA49BD000F5100 /* rcmessages_videoplay@2x.png */,
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
 		515F643576492E32E5BC80FB1F144EA9 /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -1233,7 +1214,18 @@
 		77092FCBE433AA76817A92972B3EE58F /* UseDesk */ = {
 			isa = PBXGroup;
 			children = (
-				500D7FF820DA49AB000F5100 /* Resource */,
+				500D800E20DA4B3C000F5100 /* ic_dislike.png */,
+				500D800F20DA4B3C000F5100 /* ic_like.png */,
+				500D800920DA4B3C000F5100 /* icon_file.png */,
+				500D800B20DA4B3C000F5100 /* rcmessage_attach@2x.png */,
+				500D800520DA4B3B000F5100 /* rcmessage_audio@2x.png */,
+				500D800720DA4B3C000F5100 /* rcmessage_incoming.aiff */,
+				500D800620DA4B3C000F5100 /* rcmessage_outgoing.aiff */,
+				500D800A20DA4B3C000F5100 /* rcmessage_send@2x.png */,
+				500D800C20DA4B3C000F5100 /* rcmessages_audiopause@2x.png */,
+				500D800D20DA4B3C000F5100 /* rcmessages_audioplay@2x.png */,
+				500D801020DA4B3C000F5100 /* rcmessages_manual@2x.png */,
+				500D800820DA4B3C000F5100 /* rcmessages_videoplay@2x.png */,
 				5614BC664D29744D28C2D3192226E8EB /* AudioView.h */,
 				0B4C6AE3223CC8894FCDD4174B2433F4 /* AudioView.m */,
 				0B2C8CA8A3DEF9F6B8DF4F4268BAE65C /* AudioView.xib */,
