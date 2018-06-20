@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UseDesk_Example' do
+  pod 'UseDesk', :path => '../'
+
+  target 'UseDesk_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
