@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B10A8E7AF3E75F60A94A1D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0B10A8E7AF3E75F60A94A1D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		250B45C2B592A0674BAB3F7E /* Pods_UseDesk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UseDesk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		34331FB719FCD461C5277AC1 /* UseDesk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UseDesk.podspec; path = ../UseDesk.podspec; sourceTree = "<group>"; };
+		34331FB719FCD461C5277AC1 /* UseDesk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UseDesk.podspec; path = ../UseDesk.podspec; sourceTree = "<group>"; };
 		4B30737FDC18CADB6315D20B /* Pods-UseDesk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UseDesk_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UseDesk_Tests/Pods-UseDesk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5121B8F74F266703682C5FB3 /* Pods-UseDesk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UseDesk_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UseDesk_Tests/Pods-UseDesk_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* UseDesk_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UseDesk_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,7 +66,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95230AE1EA39BDF982DF1180 /* Pods_UseDesk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UseDesk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96681A0383EBE3AF89CBBDC /* Pods-UseDesk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UseDesk_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UseDesk_Example/Pods-UseDesk_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EB0F62B85944E0919EFA981C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EB0F62B85944E0919EFA981C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "serega@budyakov.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = ELTNZ8347K;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -504,6 +507,7 @@
 			baseConfigurationReference = C96681A0383EBE3AF89CBBDC /* Pods-UseDesk_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ELTNZ8347K;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UseDesk/UseDesk-Prefix.pch";
 				INFOPLIST_FILE = "UseDesk/UseDesk-Info.plist";
@@ -519,6 +523,7 @@
 			baseConfigurationReference = 6D76E0E6883938C125A51ABB /* Pods-UseDesk_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ELTNZ8347K;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UseDesk/UseDesk-Prefix.pch";
 				INFOPLIST_FILE = "UseDesk/UseDesk-Info.plist";
