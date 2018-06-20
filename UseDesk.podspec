@@ -28,15 +28,24 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/xot-dog/UseDesk.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
+  s.ios.deployment_target = '9.0'
+  s.swift_version = '4.0'
+  
   s.source_files = 'UseDesk/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'UseDesk' => ['UseDesk/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'UseDesk' => ['UseDesk/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit', 'MapKit' ,'AVFoundation'
+  s.dependency 'MBProgressHUD'
+  s.dependency 'NYTPhotoViewer', '1.2.0'
+  s.dependency 'ProgressHUD'
+  s.dependency 'RCAudioPlayer'
+  s.dependency 'Socket.IO-Client-Swift'
+  s.dependency 'AFNetworking', '~> 3.1.0'
+  s.dependency 'RCAudioPlayer'
+  s.dependency 'NSDate-Escort'
+  s.dependency 'NSDate+Helpers'
 end
