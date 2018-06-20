@@ -7,12 +7,23 @@
 //
 
 #import "UseDeskAppDelegate.h"
+#import "Settings.h"
+#import "UDStartViewController.h"
 
 @implementation UseDeskAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    UDStartViewController *startViewController = [[UDStartViewController alloc] initWithNibName:@"UDStartViewController" bundle:nil];
+    
+    [[UINavigationBar appearance] setBarTintColor:navBarBackgroundColor];
+    
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:startViewController];
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of UseDesk.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/serega@budyakov.com/UseDesk",
+  "homepage": "https://github.com/xot-dog/UseDesk.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,43 @@
     "serega@budyakov.com": "ixotdog@gmail.com"
   },
   "source": {
-    "git": "https://github.com/serega@budyakov.com/UseDesk.git",
+    "git": "https://github.com/xot-dog/UseDesk.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "UseDesk/Classes/**/*"
+  "swift_version": "4.0",
+  "source_files": "UseDesk/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "MapKit",
+    "AVFoundation"
+  ],
+  "dependencies": {
+    "MBProgressHUD": [
+
+    ],
+    "NYTPhotoViewer": [
+      "1.2.0"
+    ],
+    "ProgressHUD": [
+
+    ],
+    "RCAudioPlayer": [
+
+    ],
+    "Socket.IO-Client-Swift": [
+
+    ],
+    "AFNetworking": [
+      "~> 3.1.0"
+    ],
+    "NSDate-Escort": [
+
+    ],
+    "NSDate+Helpers": [
+
+    ]
+  }
 }
