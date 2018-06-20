@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   
   s.source_files = 'UseDesk/Classes/**/*'
   
-  s.resources = 'UseDesk/Assets/*.{png,storyboard}'
+  #s.resources = 'UseDesk/Assets/*.{png,storyboard}'
   #s.resource_bundles = {
   #   'UseDesk' => ['UseDesk/Assets/*']
   # }
