@@ -15,6 +15,57 @@
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		47DEE95708BDBD11436162D166CD192E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */; };
+		500D7FA320DA3DC8000F5100 /* RCPictureMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7F6D20DA3DBF000F5100 /* RCPictureMessageCell.h */; };
+		500D7FA420DA3DC8000F5100 /* UseDeskSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7F6E20DA3DBF000F5100 /* UseDeskSDK.h */; };
+		500D7FA520DA3DC8000F5100 /* RCEmojiMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D7F6F20DA3DBF000F5100 /* RCEmojiMessageCell.m */; };
+		500D7FA620DA3DC8000F5100 /* RCMenuItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7F7020DA3DBF000F5100 /* RCMenuItem.h */; };
+		500D7FA720DA3DC8000F5100 /* RCMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D7F7120DA3DBF000F5100 /* RCMenuItem.m */; };
+		500D7FA820DA3DC8000F5100 /* UDAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7F7220DA3DBF000F5100 /* UDAudio.h */; };
+		500D7FA920DA3DC8000F5100 /* RCLocationMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7F7320DA3DC0000F5100 /* RCLocationMessageCell.h */; };
+		500D7FAA20DA3DC8000F5100 /* RCMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7F7420DA3DC0000F5100 /* RCMessage.h */; };
+		500D7FAB20DA3DC8000F5100 /* UDOfflineForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D7F7620DA3DC0000F5100 /* UDOfflineForm.m */; };
+		500D7FAC20DA3DC8000F5100 /* DialogflowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7F7720DA3DC0000F5100 /* DialogflowView.h */; };
+		500D7FAD20DA3DC8000F5100 /* RCMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D7F7820DA3DC0000F5100 /* RCMessageCell.m */; };
+		500D7FAE20DA3DC8000F5100 /* RCPictureMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D7F7920DA3DC0000F5100 /* RCPictureMessageCell.m */; };
+		500D7FAF20DA3DC8000F5100 /* RCAudioMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D7F7A20DA3DC1000F5100 /* RCAudioMessageCell.m */; };
+		500D7FB020DA3DC8000F5100 /* RCSectionFooterCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7F7C20DA3DC1000F5100 /* RCSectionFooterCell.h */; };
+		500D7FB120DA3DC8000F5100 /* UseDeskSDKHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7F7D20DA3DC1000F5100 /* UseDeskSDKHelp.h */; };
+		500D7FB220DA3DC8000F5100 /* RCBubbleFooterCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7F7E20DA3DC1000F5100 /* RCBubbleFooterCell.h */; };
+		500D7FB320DA3DC8000F5100 /* RCMessagesView.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7F7F20DA3DC1000F5100 /* RCMessagesView.h */; };
+		500D7FB420DA3DC8000F5100 /* RCMessagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D7F8020DA3DC2000F5100 /* RCMessagesView.m */; };
+		500D7FB520DA3DC8000F5100 /* RCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D7F8120DA3DC2000F5100 /* RCMessage.m */; };
+		500D7FB620DA3DC8000F5100 /* RCSectionHeaderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7F8220DA3DC2000F5100 /* RCSectionHeaderCell.h */; };
+		500D7FB720DA3DC8000F5100 /* RCSectionHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D7F8320DA3DC2000F5100 /* RCSectionHeaderCell.m */; };
+		500D7FB820DA3DC8000F5100 /* UDMimeType.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7F8520DA3DC2000F5100 /* UDMimeType.h */; };
+		500D7FB920DA3DC8000F5100 /* RCLocationMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D7F8620DA3DC3000F5100 /* RCLocationMessageCell.m */; };
+		500D7FBA20DA3DC8000F5100 /* RCMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7F8720DA3DC3000F5100 /* RCMessageCell.h */; };
+		500D7FBB20DA3DC8000F5100 /* Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7F8820DA3DC3000F5100 /* Utility.h */; };
+		500D7FBC20DA3DC8000F5100 /* UDNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7F8920DA3DC3000F5100 /* UDNavigationController.h */; };
+		500D7FBD20DA3DC8000F5100 /* RCEmojiMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7F8A20DA3DC3000F5100 /* RCEmojiMessageCell.h */; };
+		500D7FBE20DA3DC8000F5100 /* UDOfflineForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7F8B20DA3DC3000F5100 /* UDOfflineForm.h */; };
+		500D7FBF20DA3DC8000F5100 /* RCBubbleHeaderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7F8C20DA3DC4000F5100 /* RCBubbleHeaderCell.h */; };
+		500D7FC020DA3DC8000F5100 /* RCTextMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D7F8D20DA3DC4000F5100 /* RCTextMessageCell.m */; };
+		500D7FC120DA3DC8000F5100 /* RCVideoMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D7F8E20DA3DC4000F5100 /* RCVideoMessageCell.m */; };
+		500D7FC220DA3DC8000F5100 /* RCMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7F8F20DA3DC4000F5100 /* RCMessages.h */; };
+		500D7FC320DA3DC8000F5100 /* UDAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D7F9020DA3DC4000F5100 /* UDAudio.m */; };
+		500D7FC420DA3DC8000F5100 /* RCBubbleFooterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D7F9120DA3DC5000F5100 /* RCBubbleFooterCell.m */; };
+		500D7FC520DA3DC8000F5100 /* AudioView.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7F9220DA3DC5000F5100 /* AudioView.h */; };
+		500D7FC620DA3DC8000F5100 /* DialogflowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D7F9320DA3DC5000F5100 /* DialogflowView.m */; };
+		500D7FC720DA3DC8000F5100 /* AudioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D7F9420DA3DC5000F5100 /* AudioView.m */; };
+		500D7FC820DA3DC8000F5100 /* RCAudioMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7F9520DA3DC5000F5100 /* RCAudioMessageCell.h */; };
+		500D7FC920DA3DC8000F5100 /* UseDeskSDKHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D7F9620DA3DC5000F5100 /* UseDeskSDKHelp.m */; };
+		500D7FCA20DA3DC8000F5100 /* RCSectionFooterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D7F9720DA3DC6000F5100 /* RCSectionFooterCell.m */; };
+		500D7FCB20DA3DC8000F5100 /* UDDir.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7F9820DA3DC6000F5100 /* UDDir.h */; };
+		500D7FCC20DA3DC8000F5100 /* UDMimeType.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D7F9920DA3DC6000F5100 /* UDMimeType.m */; };
+		500D7FCD20DA3DC8000F5100 /* RCMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D7F9A20DA3DC6000F5100 /* RCMessages.m */; };
+		500D7FCE20DA3DC8000F5100 /* UseDeskSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D7F9B20DA3DC6000F5100 /* UseDeskSDK.m */; };
+		500D7FCF20DA3DC8000F5100 /* RCBubbleHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D7F9C20DA3DC6000F5100 /* RCBubbleHeaderCell.m */; };
+		500D7FD020DA3DC8000F5100 /* RCVideoMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7F9D20DA3DC7000F5100 /* RCVideoMessageCell.h */; };
+		500D7FD120DA3DC8000F5100 /* UDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D7F9E20DA3DC7000F5100 /* UDNavigationController.m */; };
+		500D7FD220DA3DC8000F5100 /* RCStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D7F9F20DA3DC7000F5100 /* RCStatusCell.m */; };
+		500D7FD320DA3DC8000F5100 /* RCTextMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7FA020DA3DC7000F5100 /* RCTextMessageCell.h */; };
+		500D7FD420DA3DC8000F5100 /* UDDir.m in Sources */ = {isa = PBXBuildFile; fileRef = 500D7FA120DA3DC8000F5100 /* UDDir.m */; };
+		500D7FD520DA3DC8000F5100 /* RCStatusCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D7FA220DA3DC8000F5100 /* RCStatusCell.h */; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
 		592B33DB2896999A91F81343F1409A73 /* Pods-UseDesk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 442BA1F101FE850658669DD5F4BDF55E /* Pods-UseDesk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BC12F69E33ABA27B9E0B78128CE336D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */; };
@@ -82,6 +133,60 @@
 		442BA1F101FE850658669DD5F4BDF55E /* Pods-UseDesk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UseDesk_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		4FEB747A40DF98D7608E25227AC5726B /* Pods-UseDesk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UseDesk_Example-frameworks.sh"; sourceTree = "<group>"; };
+		500D7F6D20DA3DBF000F5100 /* RCPictureMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCPictureMessageCell.h; path = UseDesk/Classes/RCPictureMessageCell.h; sourceTree = "<group>"; };
+		500D7F6E20DA3DBF000F5100 /* UseDeskSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UseDeskSDK.h; path = UseDesk/Classes/UseDeskSDK.h; sourceTree = "<group>"; };
+		500D7F6F20DA3DBF000F5100 /* RCEmojiMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCEmojiMessageCell.m; path = UseDesk/Classes/RCEmojiMessageCell.m; sourceTree = "<group>"; };
+		500D7F7020DA3DBF000F5100 /* RCMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCMenuItem.h; path = UseDesk/Classes/RCMenuItem.h; sourceTree = "<group>"; };
+		500D7F7120DA3DBF000F5100 /* RCMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCMenuItem.m; path = UseDesk/Classes/RCMenuItem.m; sourceTree = "<group>"; };
+		500D7F7220DA3DBF000F5100 /* UDAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UDAudio.h; path = UseDesk/Classes/UDAudio.h; sourceTree = "<group>"; };
+		500D7F7320DA3DC0000F5100 /* RCLocationMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCLocationMessageCell.h; path = UseDesk/Classes/RCLocationMessageCell.h; sourceTree = "<group>"; };
+		500D7F7420DA3DC0000F5100 /* RCMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCMessage.h; path = UseDesk/Classes/RCMessage.h; sourceTree = "<group>"; };
+		500D7F7520DA3DC0000F5100 /* UDOfflineForm.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UDOfflineForm.xib; path = UseDesk/Classes/UDOfflineForm.xib; sourceTree = "<group>"; };
+		500D7F7620DA3DC0000F5100 /* UDOfflineForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UDOfflineForm.m; path = UseDesk/Classes/UDOfflineForm.m; sourceTree = "<group>"; };
+		500D7F7720DA3DC0000F5100 /* DialogflowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DialogflowView.h; path = UseDesk/Classes/DialogflowView.h; sourceTree = "<group>"; };
+		500D7F7820DA3DC0000F5100 /* RCMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCMessageCell.m; path = UseDesk/Classes/RCMessageCell.m; sourceTree = "<group>"; };
+		500D7F7920DA3DC0000F5100 /* RCPictureMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCPictureMessageCell.m; path = UseDesk/Classes/RCPictureMessageCell.m; sourceTree = "<group>"; };
+		500D7F7A20DA3DC1000F5100 /* RCAudioMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCAudioMessageCell.m; path = UseDesk/Classes/RCAudioMessageCell.m; sourceTree = "<group>"; };
+		500D7F7B20DA3DC1000F5100 /* AudioView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AudioView.xib; path = UseDesk/Classes/AudioView.xib; sourceTree = "<group>"; };
+		500D7F7C20DA3DC1000F5100 /* RCSectionFooterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCSectionFooterCell.h; path = UseDesk/Classes/RCSectionFooterCell.h; sourceTree = "<group>"; };
+		500D7F7D20DA3DC1000F5100 /* UseDeskSDKHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UseDeskSDKHelp.h; path = UseDesk/Classes/UseDeskSDKHelp.h; sourceTree = "<group>"; };
+		500D7F7E20DA3DC1000F5100 /* RCBubbleFooterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCBubbleFooterCell.h; path = UseDesk/Classes/RCBubbleFooterCell.h; sourceTree = "<group>"; };
+		500D7F7F20DA3DC1000F5100 /* RCMessagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCMessagesView.h; path = UseDesk/Classes/RCMessagesView.h; sourceTree = "<group>"; };
+		500D7F8020DA3DC2000F5100 /* RCMessagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCMessagesView.m; path = UseDesk/Classes/RCMessagesView.m; sourceTree = "<group>"; };
+		500D7F8120DA3DC2000F5100 /* RCMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCMessage.m; path = UseDesk/Classes/RCMessage.m; sourceTree = "<group>"; };
+		500D7F8220DA3DC2000F5100 /* RCSectionHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCSectionHeaderCell.h; path = UseDesk/Classes/RCSectionHeaderCell.h; sourceTree = "<group>"; };
+		500D7F8320DA3DC2000F5100 /* RCSectionHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCSectionHeaderCell.m; path = UseDesk/Classes/RCSectionHeaderCell.m; sourceTree = "<group>"; };
+		500D7F8420DA3DC2000F5100 /* RCMessagesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RCMessagesView.xib; path = UseDesk/Classes/RCMessagesView.xib; sourceTree = "<group>"; };
+		500D7F8520DA3DC2000F5100 /* UDMimeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UDMimeType.h; path = UseDesk/Classes/UDMimeType.h; sourceTree = "<group>"; };
+		500D7F8620DA3DC3000F5100 /* RCLocationMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCLocationMessageCell.m; path = UseDesk/Classes/RCLocationMessageCell.m; sourceTree = "<group>"; };
+		500D7F8720DA3DC3000F5100 /* RCMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCMessageCell.h; path = UseDesk/Classes/RCMessageCell.h; sourceTree = "<group>"; };
+		500D7F8820DA3DC3000F5100 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utility.h; path = UseDesk/Classes/Utility.h; sourceTree = "<group>"; };
+		500D7F8920DA3DC3000F5100 /* UDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UDNavigationController.h; path = UseDesk/Classes/UDNavigationController.h; sourceTree = "<group>"; };
+		500D7F8A20DA3DC3000F5100 /* RCEmojiMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCEmojiMessageCell.h; path = UseDesk/Classes/RCEmojiMessageCell.h; sourceTree = "<group>"; };
+		500D7F8B20DA3DC3000F5100 /* UDOfflineForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UDOfflineForm.h; path = UseDesk/Classes/UDOfflineForm.h; sourceTree = "<group>"; };
+		500D7F8C20DA3DC4000F5100 /* RCBubbleHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCBubbleHeaderCell.h; path = UseDesk/Classes/RCBubbleHeaderCell.h; sourceTree = "<group>"; };
+		500D7F8D20DA3DC4000F5100 /* RCTextMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTextMessageCell.m; path = UseDesk/Classes/RCTextMessageCell.m; sourceTree = "<group>"; };
+		500D7F8E20DA3DC4000F5100 /* RCVideoMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCVideoMessageCell.m; path = UseDesk/Classes/RCVideoMessageCell.m; sourceTree = "<group>"; };
+		500D7F8F20DA3DC4000F5100 /* RCMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCMessages.h; path = UseDesk/Classes/RCMessages.h; sourceTree = "<group>"; };
+		500D7F9020DA3DC4000F5100 /* UDAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UDAudio.m; path = UseDesk/Classes/UDAudio.m; sourceTree = "<group>"; };
+		500D7F9120DA3DC5000F5100 /* RCBubbleFooterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCBubbleFooterCell.m; path = UseDesk/Classes/RCBubbleFooterCell.m; sourceTree = "<group>"; };
+		500D7F9220DA3DC5000F5100 /* AudioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioView.h; path = UseDesk/Classes/AudioView.h; sourceTree = "<group>"; };
+		500D7F9320DA3DC5000F5100 /* DialogflowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DialogflowView.m; path = UseDesk/Classes/DialogflowView.m; sourceTree = "<group>"; };
+		500D7F9420DA3DC5000F5100 /* AudioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AudioView.m; path = UseDesk/Classes/AudioView.m; sourceTree = "<group>"; };
+		500D7F9520DA3DC5000F5100 /* RCAudioMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCAudioMessageCell.h; path = UseDesk/Classes/RCAudioMessageCell.h; sourceTree = "<group>"; };
+		500D7F9620DA3DC5000F5100 /* UseDeskSDKHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UseDeskSDKHelp.m; path = UseDesk/Classes/UseDeskSDKHelp.m; sourceTree = "<group>"; };
+		500D7F9720DA3DC6000F5100 /* RCSectionFooterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCSectionFooterCell.m; path = UseDesk/Classes/RCSectionFooterCell.m; sourceTree = "<group>"; };
+		500D7F9820DA3DC6000F5100 /* UDDir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UDDir.h; path = UseDesk/Classes/UDDir.h; sourceTree = "<group>"; };
+		500D7F9920DA3DC6000F5100 /* UDMimeType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UDMimeType.m; path = UseDesk/Classes/UDMimeType.m; sourceTree = "<group>"; };
+		500D7F9A20DA3DC6000F5100 /* RCMessages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCMessages.m; path = UseDesk/Classes/RCMessages.m; sourceTree = "<group>"; };
+		500D7F9B20DA3DC6000F5100 /* UseDeskSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UseDeskSDK.m; path = UseDesk/Classes/UseDeskSDK.m; sourceTree = "<group>"; };
+		500D7F9C20DA3DC6000F5100 /* RCBubbleHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCBubbleHeaderCell.m; path = UseDesk/Classes/RCBubbleHeaderCell.m; sourceTree = "<group>"; };
+		500D7F9D20DA3DC7000F5100 /* RCVideoMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCVideoMessageCell.h; path = UseDesk/Classes/RCVideoMessageCell.h; sourceTree = "<group>"; };
+		500D7F9E20DA3DC7000F5100 /* UDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UDNavigationController.m; path = UseDesk/Classes/UDNavigationController.m; sourceTree = "<group>"; };
+		500D7F9F20DA3DC7000F5100 /* RCStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCStatusCell.m; path = UseDesk/Classes/RCStatusCell.m; sourceTree = "<group>"; };
+		500D7FA020DA3DC7000F5100 /* RCTextMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTextMessageCell.h; path = UseDesk/Classes/RCTextMessageCell.h; sourceTree = "<group>"; };
+		500D7FA120DA3DC8000F5100 /* UDDir.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UDDir.m; path = UseDesk/Classes/UDDir.m; sourceTree = "<group>"; };
+		500D7FA220DA3DC8000F5100 /* RCStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCStatusCell.h; path = UseDesk/Classes/RCStatusCell.h; sourceTree = "<group>"; };
 		543210C2EE8962433A37EFA6B6C7D0DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		5C1C3E314B679FDFF5D26C7ECAB580BA /* Pods-UseDesk_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UseDesk_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -187,6 +292,60 @@
 		29EB093BF52B538C553FC3A62CC8A3F7 /* UseDesk */ = {
 			isa = PBXGroup;
 			children = (
+				500D7F9220DA3DC5000F5100 /* AudioView.h */,
+				500D7F9420DA3DC5000F5100 /* AudioView.m */,
+				500D7F7B20DA3DC1000F5100 /* AudioView.xib */,
+				500D7F7720DA3DC0000F5100 /* DialogflowView.h */,
+				500D7F9320DA3DC5000F5100 /* DialogflowView.m */,
+				500D7F9520DA3DC5000F5100 /* RCAudioMessageCell.h */,
+				500D7F7A20DA3DC1000F5100 /* RCAudioMessageCell.m */,
+				500D7F7E20DA3DC1000F5100 /* RCBubbleFooterCell.h */,
+				500D7F9120DA3DC5000F5100 /* RCBubbleFooterCell.m */,
+				500D7F8C20DA3DC4000F5100 /* RCBubbleHeaderCell.h */,
+				500D7F9C20DA3DC6000F5100 /* RCBubbleHeaderCell.m */,
+				500D7F8A20DA3DC3000F5100 /* RCEmojiMessageCell.h */,
+				500D7F6F20DA3DBF000F5100 /* RCEmojiMessageCell.m */,
+				500D7F7320DA3DC0000F5100 /* RCLocationMessageCell.h */,
+				500D7F8620DA3DC3000F5100 /* RCLocationMessageCell.m */,
+				500D7F7020DA3DBF000F5100 /* RCMenuItem.h */,
+				500D7F7120DA3DBF000F5100 /* RCMenuItem.m */,
+				500D7F7420DA3DC0000F5100 /* RCMessage.h */,
+				500D7F8120DA3DC2000F5100 /* RCMessage.m */,
+				500D7F8720DA3DC3000F5100 /* RCMessageCell.h */,
+				500D7F7820DA3DC0000F5100 /* RCMessageCell.m */,
+				500D7F8F20DA3DC4000F5100 /* RCMessages.h */,
+				500D7F9A20DA3DC6000F5100 /* RCMessages.m */,
+				500D7F7F20DA3DC1000F5100 /* RCMessagesView.h */,
+				500D7F8020DA3DC2000F5100 /* RCMessagesView.m */,
+				500D7F8420DA3DC2000F5100 /* RCMessagesView.xib */,
+				500D7F6D20DA3DBF000F5100 /* RCPictureMessageCell.h */,
+				500D7F7920DA3DC0000F5100 /* RCPictureMessageCell.m */,
+				500D7F7C20DA3DC1000F5100 /* RCSectionFooterCell.h */,
+				500D7F9720DA3DC6000F5100 /* RCSectionFooterCell.m */,
+				500D7F8220DA3DC2000F5100 /* RCSectionHeaderCell.h */,
+				500D7F8320DA3DC2000F5100 /* RCSectionHeaderCell.m */,
+				500D7FA220DA3DC8000F5100 /* RCStatusCell.h */,
+				500D7F9F20DA3DC7000F5100 /* RCStatusCell.m */,
+				500D7FA020DA3DC7000F5100 /* RCTextMessageCell.h */,
+				500D7F8D20DA3DC4000F5100 /* RCTextMessageCell.m */,
+				500D7F9D20DA3DC7000F5100 /* RCVideoMessageCell.h */,
+				500D7F8E20DA3DC4000F5100 /* RCVideoMessageCell.m */,
+				500D7F7220DA3DBF000F5100 /* UDAudio.h */,
+				500D7F9020DA3DC4000F5100 /* UDAudio.m */,
+				500D7F9820DA3DC6000F5100 /* UDDir.h */,
+				500D7FA120DA3DC8000F5100 /* UDDir.m */,
+				500D7F8520DA3DC2000F5100 /* UDMimeType.h */,
+				500D7F9920DA3DC6000F5100 /* UDMimeType.m */,
+				500D7F8920DA3DC3000F5100 /* UDNavigationController.h */,
+				500D7F9E20DA3DC7000F5100 /* UDNavigationController.m */,
+				500D7F8B20DA3DC3000F5100 /* UDOfflineForm.h */,
+				500D7F7620DA3DC0000F5100 /* UDOfflineForm.m */,
+				500D7F7520DA3DC0000F5100 /* UDOfflineForm.xib */,
+				500D7F6E20DA3DBF000F5100 /* UseDeskSDK.h */,
+				500D7F9B20DA3DC6000F5100 /* UseDeskSDK.m */,
+				500D7F7D20DA3DC1000F5100 /* UseDeskSDKHelp.h */,
+				500D7F9620DA3DC5000F5100 /* UseDeskSDKHelp.m */,
+				500D7F8820DA3DC3000F5100 /* Utility.h */,
 				5C5295AE3BF8B2C6567AF7031BB67A63 /* ReplaceMe.m */,
 				D8DFEE72A7437889E1B9B2F9A4931227 /* Pod */,
 				79079CD66D4C9736DDA0465C5A805934 /* Support Files */,
@@ -372,7 +531,33 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				500D7FBE20DA3DC8000F5100 /* UDOfflineForm.h in Headers */,
+				500D7FBD20DA3DC8000F5100 /* RCEmojiMessageCell.h in Headers */,
+				500D7FA420DA3DC8000F5100 /* UseDeskSDK.h in Headers */,
+				500D7FAC20DA3DC8000F5100 /* DialogflowView.h in Headers */,
+				500D7FB620DA3DC8000F5100 /* RCSectionHeaderCell.h in Headers */,
+				500D7FBB20DA3DC8000F5100 /* Utility.h in Headers */,
+				500D7FA320DA3DC8000F5100 /* RCPictureMessageCell.h in Headers */,
+				500D7FB120DA3DC8000F5100 /* UseDeskSDKHelp.h in Headers */,
+				500D7FA920DA3DC8000F5100 /* RCLocationMessageCell.h in Headers */,
+				500D7FB220DA3DC8000F5100 /* RCBubbleFooterCell.h in Headers */,
+				500D7FB820DA3DC8000F5100 /* UDMimeType.h in Headers */,
+				500D7FD520DA3DC8000F5100 /* RCStatusCell.h in Headers */,
+				500D7FB320DA3DC8000F5100 /* RCMessagesView.h in Headers */,
+				500D7FBF20DA3DC8000F5100 /* RCBubbleHeaderCell.h in Headers */,
 				DA81AEC8EECA5990AA828A7BCAAC097E /* UseDesk-umbrella.h in Headers */,
+				500D7FA620DA3DC8000F5100 /* RCMenuItem.h in Headers */,
+				500D7FB020DA3DC8000F5100 /* RCSectionFooterCell.h in Headers */,
+				500D7FC520DA3DC8000F5100 /* AudioView.h in Headers */,
+				500D7FC220DA3DC8000F5100 /* RCMessages.h in Headers */,
+				500D7FA820DA3DC8000F5100 /* UDAudio.h in Headers */,
+				500D7FAA20DA3DC8000F5100 /* RCMessage.h in Headers */,
+				500D7FD320DA3DC8000F5100 /* RCTextMessageCell.h in Headers */,
+				500D7FBA20DA3DC8000F5100 /* RCMessageCell.h in Headers */,
+				500D7FCB20DA3DC8000F5100 /* UDDir.h in Headers */,
+				500D7FBC20DA3DC8000F5100 /* UDNavigationController.h in Headers */,
+				500D7FD020DA3DC8000F5100 /* RCVideoMessageCell.h in Headers */,
+				500D7FC820DA3DC8000F5100 /* RCAudioMessageCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,8 +700,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				500D7FC620DA3DC8000F5100 /* DialogflowView.m in Sources */,
+				500D7FCF20DA3DC8000F5100 /* RCBubbleHeaderCell.m in Sources */,
+				500D7FC120DA3DC8000F5100 /* RCVideoMessageCell.m in Sources */,
+				500D7FD420DA3DC8000F5100 /* UDDir.m in Sources */,
+				500D7FB720DA3DC8000F5100 /* RCSectionHeaderCell.m in Sources */,
+				500D7FA720DA3DC8000F5100 /* RCMenuItem.m in Sources */,
+				500D7FC020DA3DC8000F5100 /* RCTextMessageCell.m in Sources */,
+				500D7FB420DA3DC8000F5100 /* RCMessagesView.m in Sources */,
+				500D7FCD20DA3DC8000F5100 /* RCMessages.m in Sources */,
 				684113354B66E6A68222D84D22AB963C /* ReplaceMe.m in Sources */,
+				500D7FCE20DA3DC8000F5100 /* UseDeskSDK.m in Sources */,
+				500D7FAD20DA3DC8000F5100 /* RCMessageCell.m in Sources */,
+				500D7FB920DA3DC8000F5100 /* RCLocationMessageCell.m in Sources */,
+				500D7FCA20DA3DC8000F5100 /* RCSectionFooterCell.m in Sources */,
+				500D7FAF20DA3DC8000F5100 /* RCAudioMessageCell.m in Sources */,
+				500D7FD220DA3DC8000F5100 /* RCStatusCell.m in Sources */,
+				500D7FA520DA3DC8000F5100 /* RCEmojiMessageCell.m in Sources */,
 				BF8237341ABCD9BFBDB5DC075A12160B /* UseDesk-dummy.m in Sources */,
+				500D7FAE20DA3DC8000F5100 /* RCPictureMessageCell.m in Sources */,
+				500D7FD120DA3DC8000F5100 /* UDNavigationController.m in Sources */,
+				500D7FB520DA3DC8000F5100 /* RCMessage.m in Sources */,
+				500D7FAB20DA3DC8000F5100 /* UDOfflineForm.m in Sources */,
+				500D7FC920DA3DC8000F5100 /* UseDeskSDKHelp.m in Sources */,
+				500D7FCC20DA3DC8000F5100 /* UDMimeType.m in Sources */,
+				500D7FC720DA3DC8000F5100 /* AudioView.m in Sources */,
+				500D7FC320DA3DC8000F5100 /* UDAudio.m in Sources */,
+				500D7FC420DA3DC8000F5100 /* RCBubbleFooterCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
