@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.requires_arc = true
   s.static_framework = true
   
-  s.source_files = '/UseDesk/*{h,m}'
+  s.source_files = 'UseDesk/*{h,m}'
   
   s.resources = 'UseDesk/**/*.{png,jpeg,jpg,storyboard,xib}'
   #s.resources = 'UseDesk/Assets/*.{png,storyboard}'
